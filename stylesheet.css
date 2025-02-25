@@ -1,1 +1,42 @@
-stylesheet
+p {
+	font-family: sans-serif;
+    
+}
+
+.grid {
+	display: grid;
+    grid-template-columns: repeat(4, minmax(0, 25%));
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+    overflow: hidden;
+    max-height: 25%;
+}
+
+.header {
+	background-color: #ECE5E1;
+    padding: 5px;
+    border-bottom: 5px solid #E15BAD;
+    font-size: 35px;
+    color: #141145;
+    margin-bottom: 10px;
+}
+
+.maintext {
+	background-color: #ECE5E1;
+    border: 3px solid #694198;
+    color: #E15BAD;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 3px;
+    overflow: scroll;
+}
+
+.sidetext {
+	background-color: #EBB1D5A0;
+    border: 3px double #E15BAD;
+    color: #E15BAD;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 3px;
+    font-size: 13px;
+    overflow: scroll;
+}
