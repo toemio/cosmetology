@@ -7,35 +7,72 @@
       <script src="js/init.js"></script>
       <link rel="stylesheet" href="stylesheet.css">
     <title>Join Our Class</title>
+<style>
+.grid {
+	display: grid;
+    grid-template-columns: repeat(4, minmax(0, 25%));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    overflow: hidden;
+    max-height: 25%;
+}   
+</style>
+    
 </head>
 <body>
-    <h1>Join Our Class</h1>
+<div class="header">
+<p>
+<strong>ACC Cosmetology</strong></p>
+<div class="nav">
+    <div class="opt">home</div>
+    <div class="opt">join our class</div>
+    <div class="opt">newsletter</div>
+    <div class="opt">booking</div>
+    <div class="opt">other</div>
+    <div class="opt">other</div>
+</div>
+</div>
+<div class="maintext">
+<h1>Join Our Class</h1>
     <p>Interested in learning spa techniques and beauty treatments? Our program is open to sophomores who want hands-on experience in the industry.</p>
+    
+    </div>
+    
+    <div class="grid">
+    
+    
+    <div class="sidetext">
     
     <h2>Who can join?</h2>
     <p>Our program is available to sophomores who want to gain real-world experience in spa services.</p>
+    </div>
+    
+     <div class="sidetext">
+    
      <h2>What will you learn?</h2>
     <p> Students will train in haircuts, facials, nail art, and more. You'll work with professionals and learn techniques used in real salons.</p>
+     </div>
+     <div class="sidetext">
     
     <h2>Subscribe to Our Newsletter</h2>
     <p>Stay informed about upcoming events, fundraisers, and opportunities to get involved. Sign up for our newsletter to receive updates straight to your inbox.</p>
-    
     <form action="subscribe.php" method="post">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
-        
+        <input type="text" id="name" name="name" required><br>
+
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
+        <input type="email" id="email" name="email" required><br>
+
         <label for="interests">Interested in:</label>
         <select id="interests" name="interests">
             <option value="learning about fundraisers">Learning About Fundraisers</option>
             <option value="joining our class">Joining Our Class</option>
             <option value="Beauty Tips">Beauty Tips</option>
-        </select>
-        
+        </select><br>
+
         <button type="submit">Subscribe</button>
     </form>
+ </div>
+ </div>
 </body>
 </html>
 
