@@ -1,6 +1,6 @@
 body {
 
-	background-color: #f5f2f0;
+	background-color: #f2eeeb;
 }
 
 
@@ -11,8 +11,8 @@ p {
 
 .grid {
 	display: grid;
-    grid-template-columns: repeat(4, minmax(0, 25%));
-    grid-template-rows: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 33.333%));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
     overflow: hidden;
     max-height: 25%;
 }
@@ -22,7 +22,7 @@ p {
     text-align: center;
     padding: 5px;
     border-bottom: 5px solid #E15BAD;
-    font-size: 35px;
+    font-size: 40px;
     color: #141145;
     margin-bottom: 10px;
 }
@@ -35,16 +35,17 @@ p {
     padding: 10px;
     margin: 3px;
     overflow: scroll;
+    font-size: 17px;
 }
 
 .sidetext {
 	background-color: #EBB1D5A0;
     border: 3px double #E15BAD;
-    color: #E15BAD;
+    color: #d13495;
     border-radius: 15px;
     padding: 10px;
     margin: 3px;
-    font-size: 13px;
+    font-size: 15px;
     overflow: scroll;
 }
 
@@ -64,3 +65,7 @@ p {
     border-radius: 5px;
 }
 
+label {
+	font-family: sans-serif;
+    font-size: 1em;   
+}
