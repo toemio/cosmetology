@@ -6,6 +6,7 @@ body {
 
 p {
 	font-family: sans-serif;
+	display: inline-block;
     
 }
 
@@ -47,17 +48,18 @@ p {
     margin: 3px;
     font-size: 15px;
     overflow: scroll;
+    display: inline-block;
 }
 
 .nav {
-	font-size: 18px;
+    font-size: 18px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
 
 .opt {
-	text-align: center;
+    text-align: center;
     padding: 5px;
     margin: 1px;
     border: 3px double #E15BAD;
@@ -68,4 +70,14 @@ p {
 label {
 	font-family: sans-serif;
     font-size: 1em;   
+}
+
+img {
+	max-width: 50%;
+    display: inline-block;
+}
+
+.flex {
+	display: flex;
+    flex-wrap: wrap;
 }
