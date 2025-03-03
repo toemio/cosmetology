@@ -1,3 +1,9 @@
+@font-face {
+	font-family: balonku;
+	src: url(balonku-font/BalonkuRegular.otf
+}
+
+
 body {
 
 	background-color: #f2eeeb;
@@ -39,6 +45,11 @@ a:hover {
     color: #141145;
     margin-bottom: 10px;
 }
+
+.header > p {
+	font-family: balonku;
+}
+
 
 .maintext {
 	background-color: #ECE5E1;
