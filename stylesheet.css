@@ -10,6 +10,18 @@ p {
     
 }
 
+a:link {
+	color: #341571;
+}
+
+a:visited {
+	color: #631ab6;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .grid {
 	display: grid;
     grid-template-columns: repeat(3, minmax(0, 33.333%));
