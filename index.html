@@ -8,10 +8,14 @@
     .grid {
 	  display: grid;
     grid-template-columns: repeat(5, minmax(0, 20%));
-    grid-template-rows: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
     overflow: hidden;
     max-height: 25%;
     }
+
+	#one {
+	grid-column: 1/6;
+}
   </style>
 </head>
 <body>
@@ -28,12 +32,12 @@
 		</div>
 	</div>
 <div class="grid">
-    <div class="maintext">
+    <div class="maintext" id="one">
         <p>Hi! Welcome to the ACC Cosmetology salon! Our goal is to learn real world cosmetology skills using hands on learning, meaning learning with <em>you!</em> We offer a variety of services from hair styling, facials, pedicures, etc (most of which can be found on our <a href="services.html">services page</a>).</p><p>We have been operating for [number] years at the Arlington Career Center from our classroom designed to simulate a real, professional salon. Our students can gain cerfications in barbery and hair dressing and participate in competitions, apprenticeships, and jobs.</p>
     </div>
     <div class="sidetext">
-        <h3>Join Us</h3>
-        <p><a href="joinus.html">Join our class at ACC and follow our newsletter to get updates on future events!</a></p>
+        <h3><a href="joinus.html"> Join Us</a> </h3>
+        <p>Join our class at ACC and follow our newsletter to get updates on future events!</p>
     </div>
     <div class="sidetext">
         <h3><a href="services.html">Services</a></h3>
